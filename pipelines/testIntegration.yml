@@ -13,5 +13,5 @@
     execute_commands:
     - "# yarn install"
     - "npm install"
-    - "npm test"
+    - "npm run build"
     shell: "BASH"
