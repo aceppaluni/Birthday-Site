@@ -5,3 +5,13 @@
   start_date: "2024-04-28T16:00:00Z"
   delay: 5
   fail_on_prepare_env_warning: true
+  actions:
+  - action: "npm test"
+    type: "BUILD"
+    docker_image_name: "library/node"
+    docker_image_tag: "20"
+    execute_commands:
+    - "# yarn install"
+    - "npm install"
+    - "npm test"
+    shell: "BASH"
