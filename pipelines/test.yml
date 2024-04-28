@@ -8,5 +8,5 @@
   - action: "Send email"
     type: "EMAIL"
     title: "$BUDDY_PIPELINE_NAME execution #$BUDDY_EXECUTION_ID"
-    content: "Something has happened, please resolve the issue. "
+    content: "All good to go!"
     recipients: "aceppaluni@gmail.com"
