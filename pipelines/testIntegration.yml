@@ -1,0 +1,7 @@
+- pipeline: "Integration Test"
+  on: "SCHEDULE"
+  refs:
+  - "refs/heads/main"
+  start_date: "2024-04-28T16:00:00Z"
+  delay: 5
+  fail_on_prepare_env_warning: true
